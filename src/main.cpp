@@ -16,16 +16,12 @@
 
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <Adafruit_ST7789.h> // Hardware-specific library for ST7789
-#include <SPI.h>
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
-#include <WiFi.h>
-#include <HTTPClient.h>
 
 // Define the server and path for the API
 #define SERVER "api.quavergame.com"
 #define PATH "/v1/users/609092/achievements"
-#define SERVER_FINGERPRINT "19 5d a2 b6 72 f4 c6 7d eb 43 d2 16 e2 a8 a5 5e db ed 6f 76 1f d9 9e d7 41 5c 30 8e c3 d7 29 db"
 
 // Enter your WiFi SSID and password
 char ssid[] = "Hotspot1";    // your network SSID (name)
