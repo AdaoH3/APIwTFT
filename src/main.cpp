@@ -25,11 +25,12 @@
 
 // Enter your WiFi SSID and password
 char ssid[] = "Hotspot1";    // your network SSID (name)
-char pass[] = "NotYours"; 
+char pass[] = ""; //Hidden for safety reasons
 
 // Use dedicated hardware SPI pins
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
 
+//Referencing Functions/Variables so I can use them globally
 void printWifiStatus();
 int updateAchievements();
 int unlockedCount = 0;
